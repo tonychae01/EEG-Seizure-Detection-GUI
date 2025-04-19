@@ -3,10 +3,10 @@
 ---
 ## 📄 EEG-Seizure-Detection with Automated Graphic User Interface
 
-[![View PDF Report](https://img.shields.io/badge/View%20Report-PDF-blue?style=flat-square&logo=adobe)](Kaggle%20Report.pdf)
+[![View PDF Report](https://img.shields.io/badge/View%20Report-PDF-blue?style=flat-square&logo=adobe)](Official%20Report%20-%20two%20column%20version.pdf) 
 
 > **Note:** You can also click the badge above or use the link below  
-> [**Open the full PDF report**](Official Repo)
+> [**Open the full PDF report**](Official%20Report%20-%20two%20column%20version.pdf)
 >
 
 # Seizure Detection System
