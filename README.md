@@ -15,6 +15,11 @@
 **Institution:** The University of Texas at Austin, Department of Electrical & Computer Engineering  
 **Project Duration:** Fall 2024 (Data Science Lab Final Project)
 
+**Key Contribution**
+•	Acquired 7,790 one second EEG epochs (19 channels @500 Hz) from six focal epilepsy patients, applied 1.6–70 Hz band pass + 50 Hz notch filtering, log scaled amplitudes, removed noisy channels via statistical outlier detection, and reshaped into (N, 19, 500) tensors for downstream analysis.
+•	Implemented three classification pipelines—1 layer LSTM (128 units, dropout 0.3), 3 layer 1D CNN (filters [32, 64, 128], ReLU activations), and PCA driven XGBoost (100 PCs, Optuna tuned hyperparameters)—trained with binary cross entropy/log loss, 10 fold CV, and early stopping to achieve up to 90.50% accuracy and AUC 0.96.
+•	Developed a Python/Tkinter real time GUI prototype ingesting 1 s EEG windows via MNE RawArray, visualizing continuous traces, triggering seizure alarms, and simulating hospital notifications; thresholds and channel mappings are fully configurable.
+
 ---
 
 ## Overview
